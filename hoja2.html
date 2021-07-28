@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeniVicku    </title>
+    <link rel="stylesheet" href="CSS/estilos.css" >
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+
+<body>
+  <!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Menu</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Inicio</a>
+  <a href="Productos.html" onclick="w3_close()" class="w3-bar-item w3-button">Productos</a>
+  <a href="quienes somos.html" onclick="w3_close()" class="w3-bar-item w3-button">Sobre BeniVicku</a>
+</nav>
+
+<!-- Top menu -->
+<div class="navegador">
+  <div class="w3-pink w3-xlarge" >
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">BeniVicku</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="contenido">
+ 
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+  
+    <div class="postres">
+      <h2> Postres</h2>
+      <img src="html/Menu/Productos/Imagenes/postres/181209012_806459706638492_233290345278703200_n.jpg" alt="postres" class="eva">
+      
+      <p>¿Queres cambiar la clasica mesa dulce de los cumpleaños o post reunion familiar? Estos postresitos en vasitos son perfectos para la ocasion</p>
+    </div>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"></div>
+    <div class="galletas">
+      <h2> Galletas </h2>
+      <img src="html/Menu/Productos/Imagenes/Galletas/197096594_824910101460119_4954376458260012547_n.jpg" alt="Galletas" class="eva">
+      <p> Perfectas para compartir en una tarde de mates o en cumpleaños</p>
+    </div>
+  </div>
+  
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="hoja2.html" class="w3-bar-item w3-black w3-button">2</a>
+      <a href="hoja3.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="hoja3.html" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+
+    
+
+   
+
+<!-- End page content -->
+</div>
+<h3> Rio parana 642-Bº Golfo San Jorge-Caleta Olivia- Santa Cruz- CP:9011</h3>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>

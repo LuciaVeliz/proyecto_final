@@ -1,0 +1,164 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: Karma serif }
+.w3-bar-block .w3-bar-item {padding:20px}
+
+body {
+    background-color: rgb (247, 188, 216);
+    background-image: url(../html/Menu/Productos/Imagenes/WhatsApp\ Image\ 2021-07-13\ at\ 22.26.31.jpeg);
+     background-size: 100vh;
+}
+#inSidebar {
+  display:none;
+  z-index:2;
+  width:40%;
+  min-width:300px
+}
+.navegador
+{
+  max-width:1200px;
+  margin:0px ;
+}
+ 
+.contenido {
+  max-width:1200px;
+  margin-top:100px;
+  padding:0px;
+  box-sizing: border-box;
+  align-items: center;
+  
+}
+
+#food {
+  
+  flex-direction: row;
+  align-items: baseline;
+}
+
+img {
+  border: 1px solid #ddd ;
+  width: 200px;
+  align-items: baseline;
+  flex-direction: row;
+}
+.evangelina {
+  display:block;
+  margin:auto;
+  height:533 px;
+  width: 500px;
+  padding: 20px 20px 20px 20px;
+  text-align: justify;
+  font-family: "Karma", sans-serif ;
+  font-size: 25px;
+  display: inline-block;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+ w3_open {
+   display:none
+ }
+  w3_close {
+    display: block;
+  }
+  
+  div img {
+
+    flex-direction: row;
+    
+    padding: 0px 30px 0px 30px;
+    align-items:baseline;
+    justify-content:space-around;
+  } 
+ .eva {
+    flex-direction: row;
+    justify-content: space-around;
+    height:533 px;
+    width: 500px;
+    text-align: justify;
+    font-family: "Karma", sans-serif ;
+    font-size: 80px;
+
+ }
+ 
+ div .bienvenida {
+   background-color: rgb(247, 188, 216);
+   text-align: center;
+   font-family: cursive sans-serif;
+  
+ }
+
+.texto {
+  background-color: #e55381;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  text-align: center;
+  justify-content: center;
+}
+
+.productos {
+  flex-direction: row;
+    justify-content: space-around;
+    height:533 px;
+    width: 500px;
+    text-align: justify;
+    font-family: "Karma", sans-serif ;
+    font-size: 80px;
+    padding: 20px 30px 30px 30px;
+  
+}
+
+h2 {
+  background-color: rgb(247, 188, 216);
+  font-size: 80px;
+  font-family: cursive sans-serif;
+  display: inline block;
+  text-align: center;
+  padding: 10px;
+  margin: 30px;
+  box-sizing: border-box;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li { 
+  display: inline-block;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+ h3{
+ background-color: rgb(247, 188, 216);
+ text-align: center;
+ font-size: 15px;
+ font-family: cursive, sans-serif;
+ }
+
+ .eva {
+  display: inline;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-around;
+ }
+
+ p {
+   font-size: 20px;
+   text-align: center;
+   font-family: cursive sans-serif;
+   align-items: center;
+ }
+
+ @media  (min-width: 568px) {
+    
+  div {
+    flex-direction: column;
+  }
+ 
+  div .w3-bar {
+    align-items: center;
+
+  }
+
+}
